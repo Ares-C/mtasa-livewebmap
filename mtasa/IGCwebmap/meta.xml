@@ -1,15 +1,7 @@
 <meta>
-    <info author="Ares" name="Live map" description="Live map" autostart="true" />
-    <!-- <include resource="ajax" /> -->
+    <info author="Ares" name="Live Web Map" description="Live Web Map" autostart="true" />
     
     <script src="webmap.slua" />
-    <!-- 	
-	<html src="index.html" default="true"/>
-	<html src="geticon.htm"/>
-	
-	<html src="script.js" />
-	<html src="style.css" />
-	<html src="files/gtasa_map.png" raw="true"/> -->
-    
+
     <export function="returnServerData" http="true" />
 </meta>
