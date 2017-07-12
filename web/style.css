@@ -1,0 +1,52 @@
+body {
+	margin: 0; 
+	padding: 0	
+}
+
+#map {
+	background: url('files/gtasa_map.png');
+	height: 700px; 
+	width: 700px; 
+	margin: 0; 
+	padding: 0
+}
+
+#blip {
+	position: absolute;
+	border:1px solid #021a40; 
+	width: 6px;
+	height: 6px;
+	z-index: 2
+}
+
+#radararea {
+	position: absolute;
+	z-index: 1
+}
+
+#radararea[flashing="true"] {
+	-webkit-transition: background 1.0s ease-in-out;
+	-ms-transition:     background 1.0s ease-in-out;
+	transition:         background 1.0s ease-in-out	
+}
+
+#radararea[highlighted="true"] {
+	border:.5px solid #021a40
+}
+
+#name {
+	position: absolute;
+	height: auto;
+    width: auto;
+	white-space: nowrap;
+
+	font-size: 15px;
+	font-family: serif;
+	
+	border: 1.8px solid #000000;
+	color: #ffffff;
+
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	z-index: 3
+}
