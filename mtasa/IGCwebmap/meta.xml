@@ -1,7 +1,5 @@
 <meta>
-    <info author="Ares" name="Live Web Map" description="Live Web Map" autostart="true" />
-    
+    <info author="tcaram" name="Live Web Map" description="Live Web Map" autostart="true" />
     <script src="webmap.lua" />
-
     <export function="returnServerData" http="true" />
 </meta>
